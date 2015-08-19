@@ -1,0 +1,265 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:700);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+/**
+ * Black theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+
+#pitchbox-reveal.reveal.night {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  color: #eee;
+  background: #111;
+  background-color: #111;  
+ }
+
+#pitchbox-reveal.reveal.night ::selection {
+  color: #fff;
+  background: #e7ad52;
+  text-shadow: none; }
+
+#pitchbox-reveal.reveal.night .slides > section, #pitchbox-reveal.reveal.night .slides > section > section {
+  line-height: 1.3;
+  font-weight: inherit; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+#pitchbox-reveal.reveal.night h1, #pitchbox-reveal.reveal.night h2, #pitchbox-reveal.reveal.night h3, #pitchbox-reveal.reveal.night h4, #pitchbox-reveal.reveal.night h5, #pitchbox-reveal.reveal.night h6 {
+  margin: 0 0 20px 0;
+  color: #eee;
+  font-family: 'Montserrat', Impact, sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+#pitchbox-reveal.reveal.night h1 {
+  font-size: 3.77em; }
+
+#pitchbox-reveal.reveal.night h2 {
+  font-size: 2.11em; }
+
+#pitchbox-reveal.reveal.night h3 {
+  font-size: 1.55em; }
+
+#pitchbox-reveal.reveal.night h4 {
+  font-size: 1em; }
+
+#pitchbox-reveal.reveal.night h1 {
+  text-shadow: none; }
+
+/*********************************************
+ * OTHER
+ *********************************************/
+#pitchbox-reveal.reveal.night p {
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+#pitchbox-reveal.reveal.night img, #pitchbox-reveal.reveal.night video, #pitchbox-reveal.reveal.night iframe {
+  max-width: 95%;
+  max-height: 95%; }
+
+#pitchbox-reveal.reveal.night strong, #pitchbox-reveal.reveal.night b {
+  font-weight: bold; }
+
+#pitchbox-reveal.reveal.night em {
+  font-style: italic; }
+
+#pitchbox-reveal.reveal.night ol, #pitchbox-reveal.reveal.night dl, #pitchbox-reveal.reveal.night ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+#pitchbox-reveal.reveal.night ol {
+  list-style-type: decimal; }
+
+#pitchbox-reveal.reveal.night ul {
+  list-style-type: disc; }
+
+#pitchbox-reveal.reveal.night ul ul {
+  list-style-type: square; }
+
+#pitchbox-reveal.reveal.night ul ul ul {
+  list-style-type: circle; }
+
+#pitchbox-reveal.reveal.night ul ul, #pitchbox-reveal.reveal.night ul ol, #pitchbox-reveal.reveal.night ol ol, #pitchbox-reveal.reveal.night ol ul {
+  display: block;
+  margin-left: 40px; }
+
+#pitchbox-reveal.reveal.night dt {
+  font-weight: bold; }
+
+#pitchbox-reveal.reveal.night dd {
+  margin-left: 40px; }
+
+#pitchbox-reveal.reveal.night q, #pitchbox-reveal.reveal.night blockquote {
+  quotes: none; }
+
+#pitchbox-reveal.reveal.night blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+#pitchbox-reveal.reveal.night blockquote p:first-child, #pitchbox-reveal.reveal.night blockquote p:last-child {
+  display: inline-block; }
+
+#pitchbox-reveal.reveal.night q {
+  font-style: italic; }
+
+#pitchbox-reveal.reveal.night pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+
+#pitchbox-reveal.reveal.night code {
+  font-family: monospace; }
+
+#pitchbox-reveal.reveal.night pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal;
+  background: #3F3F3F;
+  color: #DCDCDC; }
+
+#pitchbox-reveal.reveal.night table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#pitchbox-reveal.reveal.night table th {
+  font-weight: bold; }
+
+#pitchbox-reveal.reveal.night table th, #pitchbox-reveal.reveal.night table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid; }
+
+#pitchbox-reveal.reveal.night table th[align="center"], #pitchbox-reveal.reveal.night table td[align="center"] {
+  text-align: center; }
+
+#pitchbox-reveal.reveal.night table th[align="right"], #pitchbox-reveal.reveal.night table td[align="right"] {
+  text-align: right; }
+
+#pitchbox-reveal.reveal.night table tr:last-child td {
+  border-bottom: none; }
+
+#pitchbox-reveal.reveal.night sup {
+  vertical-align: super; }
+
+#pitchbox-reveal.reveal.night sub {
+  vertical-align: sub; }
+
+#pitchbox-reveal.reveal.night small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
+#pitchbox-reveal.reveal.night small * {
+  vertical-align: top; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+#pitchbox-reveal.reveal.night a {
+  color: #e7ad52;
+  text-decoration: none;
+  -webkit-transition: color 0.15s ease;
+  -moz-transition: color 0.15s ease;
+  transition: color 0.15s ease; }
+
+#pitchbox-reveal.reveal.night a:hover {
+  color: #f3d7ac;
+  text-shadow: none;
+  border: none; }
+
+#pitchbox-reveal.reveal.night .roll span:after {
+  color: #fff;
+  background: #d0881d; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+#pitchbox-reveal.reveal.night section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+#pitchbox-reveal.reveal.night a img {
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  transition: all 0.15s linear; }
+
+#pitchbox-reveal.reveal.night a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #e7ad52;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+#pitchbox-reveal.reveal.night .controls div.navigate-left, #pitchbox-reveal.reveal.night .controls div.navigate-left.enabled {
+  border-right-color: #e7ad52; }
+
+#pitchbox-reveal.reveal.night .controls div.navigate-right, #pitchbox-reveal.reveal.night .controls div.navigate-right.enabled {
+  border-left-color: #e7ad52; }
+
+#pitchbox-reveal.reveal.night .controls div.navigate-up, #pitchbox-reveal.reveal.night .controls div.navigate-up.enabled {
+  border-bottom-color: #e7ad52; }
+
+#pitchbox-reveal.reveal.night .controls div.navigate-down, #pitchbox-reveal.reveal.night .controls div.navigate-down.enabled {
+  border-top-color: #e7ad52; }
+
+#pitchbox-reveal.reveal.night .controls div.navigate-left.enabled:hover {
+  border-right-color: #f3d7ac; }
+
+#pitchbox-reveal.reveal.night .controls div.navigate-right.enabled:hover {
+  border-left-color: #f3d7ac; }
+
+#pitchbox-reveal.reveal.night .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #f3d7ac; }
+
+#pitchbox-reveal.reveal.night .controls div.navigate-down.enabled:hover {
+  border-top-color: #f3d7ac; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+#pitchbox-reveal.reveal.night .progress {
+  background: rgba(0, 0, 0, 0.2); }
+
+#pitchbox-reveal.reveal.night .progress span {
+  background: #e7ad52;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * SLIDE NUMBER
+ *********************************************/
+#pitchbox-reveal.reveal.night .slide-number {
+  color: #e7ad52; }

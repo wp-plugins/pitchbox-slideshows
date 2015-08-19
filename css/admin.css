@@ -1,0 +1,151 @@
+div.one_half {
+	width: 48%;
+	float: left;
+}
+
+div.one_half_last {
+	width: 48%;
+	margin: 3em auto;
+	float: right;
+}
+
+#pitchbox_slideshow_colorization_options div.one_half_last, #TB_ajaxContent div.one_half_last {
+	margin: .5em auto;
+}
+
+#pitchbox_slideshow_colorization_options div.one_half, #TB_ajaxContent div.one_half_last {
+	margin: .5em auto;
+}
+
+div.one_third {
+	width: 33%;
+	float: left;
+}
+
+.align-center {
+	text-align: center;
+}
+
+#normal-sortables .postbox .submit.align-center {
+	float: none;
+	text-align: center;
+}
+
+div.clear {
+	clear: both;
+}
+
+#pitchbox_slideshows_builder {
+		max-width: 50%;
+}
+
+button.pitchboxdelete {
+	background: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+	color: #a00;
+}
+
+button.pitchboxdelete:hover {
+	color: red;
+	text-decoration: none;
+	border: none;
+}
+
+.wp-core-ui .pitchbox-dash-settings-span{
+	background: url(../images/iconred.png) 0 0 no-repeat;
+	background-size: 21px 21px;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	vertical-align: text-top;
+	margin-right: 6px;
+}
+
+.wp-core-ui a.pitchbox-dash-settings-a {
+	font-size: 1.1em;
+	height: 30px;
+}
+
+/* @see add_slides_management_metaboxes() function in class.slideshows-front.php
+#poststuff .pitchbox-slide-management-box .hndle.ui-sortable-handle {
+	font-size: 1.2em;
+	color: #dd3333;
+}*/
+
+#poststuff div[id$='pitchbox_slide_management_box'] .hndle.ui-sortable-handle {
+	font-size: 1.2em;
+	color: #dd3333;
+}
+
+#poststuff div[id$='pitchbox_slide_management_box'] p {
+	margin: .7em 0;
+}
+
+#poststuff #premium-addon .hndle.ui-sortable-handle {
+	cursor: auto;
+}
+
+#premium-addon .handlediv {
+	display: none;
+}
+
+#poststuff .postbox .hndle {
+	cursor: pointer;
+}
+
+.pb-dashicon-yes {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	line-height: 1;
+	font-family: dashicons;
+	text-decoration: inherit;
+	font-weight: 400;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+	-webkit-transition: color .1s ease-in 0;
+	transition: color .1s ease-in 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.pb-dashicon-yes:before {
+	content: "\f147";
+	color: green;
+}
+
+#poststuff .pb-title {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#poststuff .pb-title .button-large {
+	height: 32px;
+}
+
+#poststuff #premium-addon h3 {
+	color: #fff;
+	background: #32373c;
+}
+
+#pitchbox_slideshows_conf select, .wp-picker-container, #pitchbox_slideshows_builder_2 select, #pitchbox_slideshow_logo_position {
+	float: right;
+}
+
+#pitchbox_slideshows_conf p, #pitchbox_slideshows_builder_2 p, p.pitchbox-admin {
+	line-height: 2.0;
+}
+
+select.tb_select {
+	width: 30%;
+}
+
+#TB_ajaxContent {
+	min-width:753px !important;
+	min-height: 490px !important;
+}

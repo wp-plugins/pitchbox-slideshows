@@ -1,0 +1,285 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
+/**
+ * Blood theme for reveal.js
+ * Author: Walther http://github.com/Walther
+ *
+ * Designed to be used with highlight.js theme
+ * "monokai_sublime.css" available from
+ * https://github.com/isagalaev/highlight.js/
+ *
+ * For other themes, change $codeBackground accordingly.
+ *
+ */
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+
+#pitchbox-reveal.reveal.blood {
+  font-family: Ubuntu, 'sans-serif';
+  font-size: 36px;
+  font-weight: normal;
+  color: #eee;
+  background: #222;
+  background-color: #222;
+  }
+
+#pitchbox-reveal.reveal.blood ::selection {
+  color: #fff;
+  background: #a23;
+  text-shadow: none; }
+
+#pitchbox-reveal.reveal.blood .slides > section, #pitchbox-reveal.reveal.blood .slides > section > section {
+  line-height: 1.3;
+  font-weight: inherit; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+#pitchbox-reveal.reveal.blood h1, #pitchbox-reveal.reveal.blood h2, #pitchbox-reveal.reveal.blood h3, #pitchbox-reveal.reveal.blood h4, #pitchbox-reveal.reveal.blood h5, #pitchbox-reveal.reveal.blood h6 {
+  margin: 0 0 20px 0;
+  color: #eee;
+  font-family: Ubuntu, 'sans-serif';
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #222;
+  word-wrap: break-word; }
+
+#pitchbox-reveal.reveal.blood h1 {
+  font-size: 3.77em; }
+
+#pitchbox-reveal.reveal.blood h2 {
+  font-size: 2.11em; }
+
+#pitchbox-reveal.reveal.blood h3 {
+  font-size: 1.55em; }
+
+#pitchbox-reveal.reveal.blood h4 {
+  font-size: 1em; }
+
+#pitchbox-reveal.reveal.blood h1 {
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+
+/*********************************************
+ * OTHER
+ *********************************************/
+#pitchbox-reveal.reveal.blood p {
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+#pitchbox-reveal.reveal.blood img, #pitchbox-reveal.reveal.blood video, #pitchbox-reveal.reveal.blood iframe {
+  max-width: 95%;
+  max-height: 95%; }
+
+#pitchbox-reveal.reveal.blood strong, #pitchbox-reveal.reveal.blood b {
+  font-weight: bold; }
+
+#pitchbox-reveal.reveal.blood em {
+  font-style: italic; }
+
+#pitchbox-reveal.reveal.blood ol, #pitchbox-reveal.reveal.blood dl, #pitchbox-reveal.reveal.blood ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+#pitchbox-reveal.reveal.blood ol {
+  list-style-type: decimal; }
+
+#pitchbox-reveal.reveal.blood ul {
+  list-style-type: disc; }
+
+#pitchbox-reveal.reveal.blood ul ul {
+  list-style-type: square; }
+
+#pitchbox-reveal.reveal.blood ul ul ul {
+  list-style-type: circle; }
+
+#pitchbox-reveal.reveal.blood ul ul, #pitchbox-reveal.reveal.blood ul ol, #pitchbox-reveal.reveal.blood ol ol, #pitchbox-reveal.reveal.blood ol ul {
+  display: block;
+  margin-left: 40px; }
+
+#pitchbox-reveal.reveal.blood dt {
+  font-weight: bold; }
+
+#pitchbox-reveal.reveal.blood dd {
+  margin-left: 40px; }
+
+#pitchbox-reveal.reveal.blood q, #pitchbox-reveal.reveal.blood blockquote {
+  quotes: none; }
+
+#pitchbox-reveal.reveal.blood blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+#pitchbox-reveal.reveal.blood blockquote p:first-child, #pitchbox-reveal.reveal.blood blockquote p:last-child {
+  display: inline-block; }
+
+#pitchbox-reveal.reveal.blood q {
+  font-style: italic; }
+
+#pitchbox-reveal.reveal.blood pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+
+#pitchbox-reveal.reveal.blood code {
+  font-family: monospace; }
+
+#pitchbox-reveal.reveal.blood pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal;
+  background: #3F3F3F;
+  color: #DCDCDC; }
+
+#pitchbox-reveal.reveal.blood table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#pitchbox-reveal.reveal.blood table th {
+  font-weight: bold; }
+
+#pitchbox-reveal.reveal.blood table th, #pitchbox-reveal.reveal.blood table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid; }
+
+#pitchbox-reveal.reveal.blood table th[align="center"], #pitchbox-reveal.reveal.blood table td[align="center"] {
+  text-align: center; }
+
+#pitchbox-reveal.reveal.blood table th[align="right"], #pitchbox-reveal.reveal.blood table td[align="right"] {
+  text-align: right; }
+
+#pitchbox-reveal.reveal.blood table tr:last-child td {
+  border-bottom: none; }
+
+#pitchbox-reveal.reveal.blood sup {
+  vertical-align: super; }
+
+#pitchbox-reveal.reveal.blood sub {
+  vertical-align: sub; }
+
+#pitchbox-reveal.reveal.blood small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
+#pitchbox-reveal.reveal.blood small * {
+  vertical-align: top; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+#pitchbox-reveal.reveal.blood a {
+  color: #a23;
+  text-decoration: none;
+  -webkit-transition: color 0.15s ease;
+  -moz-transition: color 0.15s ease;
+  transition: color 0.15s ease; }
+
+#pitchbox-reveal.reveal.blood a:hover {
+  color: #dd5567;
+  text-shadow: none;
+  border: none; }
+
+#pitchbox-reveal.reveal.blood .roll span:after {
+  color: #fff;
+  background: #6a1521; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+#pitchbox-reveal.reveal.blood section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+#pitchbox-reveal.reveal.blood a img {
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  transition: all 0.15s linear; }
+
+#pitchbox-reveal.reveal.blood a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #a23;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+#pitchbox-reveal.reveal.blood .controls div.navigate-left, #pitchbox-reveal.reveal.blood .controls div.navigate-left.enabled {
+  border-right-color: #a23; }
+
+#pitchbox-reveal.reveal.blood .controls div.navigate-right, #pitchbox-reveal.reveal.blood .controls div.navigate-right.enabled {
+  border-left-color: #a23; }
+
+#pitchbox-reveal.reveal.blood .controls div.navigate-up, #pitchbox-reveal.reveal.blood .controls div.navigate-up.enabled {
+  border-bottom-color: #a23; }
+
+#pitchbox-reveal.reveal.blood .controls div.navigate-down, #pitchbox-reveal.reveal.blood .controls div.navigate-down.enabled {
+  border-top-color: #a23; }
+
+#pitchbox-reveal.reveal.blood .controls div.navigate-left.enabled:hover {
+  border-right-color: #dd5567; }
+
+#pitchbox-reveal.reveal.blood .controls div.navigate-right.enabled:hover {
+  border-left-color: #dd5567; }
+
+#pitchbox-reveal.reveal.blood .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #dd5567; }
+
+#pitchbox-reveal.reveal.blood .controls div.navigate-down.enabled:hover {
+  border-top-color: #dd5567; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+#pitchbox-reveal.reveal.blood .progress {
+  background: rgba(0, 0, 0, 0.2); }
+
+#pitchbox-reveal.reveal.blood .progress span {
+  background: #a23;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * SLIDE NUMBER
+ *********************************************/
+#pitchbox-reveal.reveal.blood .slide-number {
+  color: #a23; }
+
+#pitchbox-reveal.reveal.blood p {
+  font-weight: 300;
+  text-shadow: 1px 1px #222; }
+
+#pitchbox-reveal.reveal.blood h1, #pitchbox-reveal.reveal.blood h2, #pitchbox-reveal.reveal.blood h3, #pitchbox-reveal.reveal.blood h4, #pitchbox-reveal.reveal.blood h5, #pitchbox-reveal.reveal.blood h6 {
+  font-weight: 700; }
+
+#pitchbox-reveal.reveal.blood p code {
+  background-color: #23241f;
+  display: inline-block;
+  border-radius: 7px; }
+
+#pitchbox-reveal.reveal.blood small code {
+  vertical-align: baseline; }

@@ -1,0 +1,30 @@
+html, body {
+	overflow: auto !important;
+	height: auto !important;
+	/*background: #fff; */
+}
+ 
+.reveal-wrapper {
+	width: 80%;
+	position: relative;
+	/*height: 400px;*/
+}
+
+.reveal-sixteen-by-nine {
+	padding-bottom: 56.25%;
+}
+ 
+.reveal {
+	background-color: #333;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.reveal .controls,
+.reveal .progress,
+.reveal .playback {
+	position: absolute;
+}

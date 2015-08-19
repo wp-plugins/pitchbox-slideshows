@@ -1,0 +1,266 @@
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro);
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+#pitchbox-reveal.reveal.white section.has-dark-background, #pitchbox-reveal.reveal.white section.has-dark-background h1, #pitchbox-reveal.reveal.white section.has-dark-background h2, #pitchbox-reveal.reveal.white section.has-dark-background h3, #pitchbox-reveal.reveal.white section.has-dark-background h4, #pitchbox-reveal.reveal.white section.has-dark-background h5, #pitchbox-reveal.reveal.white section.has-dark-background h6 {
+  color: #fff; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+
+#pitchbox-reveal.reveal.white {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 38px;
+  font-weight: normal;
+  color: #222;
+  background: #fff;
+  background-color: #fff;  }
+
+#pitchbox-reveal.reveal.white ::selection {
+  color: #fff;
+  background: #98bdef;
+  text-shadow: none; }
+
+#pitchbox-reveal.reveal.white .slides > section, #pitchbox-reveal.reveal.white .slides > section > section {
+  line-height: 1.3;
+  font-weight: inherit; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+#pitchbox-reveal.reveal.white h1, #pitchbox-reveal.reveal.white h2, #pitchbox-reveal.reveal.white h3, #pitchbox-reveal.reveal.white h4, #pitchbox-reveal.reveal.white h5, #pitchbox-reveal.reveal.white h6 {
+  margin: 0 0 20px 0;
+  color: #222;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+#pitchbox-reveal.reveal.white h1 {
+  font-size: 2.5em; }
+
+#pitchbox-reveal.reveal.white h2 {
+  font-size: 1.6em; }
+
+#pitchbox-reveal.reveal.white h3 {
+  font-size: 1.3em; }
+
+#pitchbox-reveal.reveal.white h4 {
+  font-size: 1em; }
+
+#pitchbox-reveal.reveal.white h1 {
+  text-shadow: none; }
+
+/*********************************************
+ * OTHER
+ *********************************************/
+#pitchbox-reveal.reveal.white p {
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+#pitchbox-reveal.reveal.white img, #pitchbox-reveal.reveal.white video, #pitchbox-reveal.reveal.white iframe {
+  max-width: 95%;
+  max-height: 95%; }
+
+#pitchbox-reveal.reveal.white strong, #pitchbox-reveal.reveal.white b {
+  font-weight: bold; }
+
+#pitchbox-reveal.reveal.white em {
+  font-style: italic; }
+
+#pitchbox-reveal.reveal.white ol, #pitchbox-reveal.reveal.white dl, #pitchbox-reveal.reveal.white ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+#pitchbox-reveal.reveal.white ol {
+  list-style-type: decimal; }
+
+#pitchbox-reveal.reveal.white ul {
+  list-style-type: disc; }
+
+#pitchbox-reveal.reveal.white ul ul {
+  list-style-type: square; }
+
+#pitchbox-reveal.reveal.white ul ul ul {
+  list-style-type: circle; }
+
+#pitchbox-reveal.reveal.white ul ul, #pitchbox-reveal.reveal.white ul ol, #pitchbox-reveal.reveal.white ol ol, #pitchbox-reveal.reveal.white ol ul {
+  display: block;
+  margin-left: 40px; }
+
+#pitchbox-reveal.reveal.white dt {
+  font-weight: bold; }
+
+#pitchbox-reveal.reveal.white dd {
+  margin-left: 40px; }
+
+#pitchbox-reveal.reveal.white q, #pitchbox-reveal.reveal.white blockquote {
+  quotes: none; }
+
+#pitchbox-reveal.reveal.white blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+#pitchbox-reveal.reveal.white blockquote p:first-child, #pitchbox-reveal.reveal.white blockquote p:last-child {
+  display: inline-block; }
+
+#pitchbox-reveal.reveal.white q {
+  font-style: italic; }
+
+#pitchbox-reveal.reveal.white pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+
+#pitchbox-reveal.reveal.white code {
+  font-family: monospace; }
+
+#pitchbox-reveal.reveal.white pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal;
+  background: #3F3F3F;
+  color: #DCDCDC; }
+
+#pitchbox-reveal.reveal.white table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#pitchbox-reveal.reveal.white table th {
+  font-weight: bold; }
+
+#pitchbox-reveal.reveal.white table th, #pitchbox-reveal.reveal.white table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid; }
+
+#pitchbox-reveal.reveal.white table th[align="center"], #pitchbox-reveal.reveal.white table td[align="center"] {
+  text-align: center; }
+
+#pitchbox-reveal.reveal.white table th[align="right"], #pitchbox-reveal.reveal.white table td[align="right"] {
+  text-align: right; }
+
+#pitchbox-reveal.reveal.white table tr:last-child td {
+  border-bottom: none; }
+
+#pitchbox-reveal.reveal.white sup {
+  vertical-align: super; }
+
+#pitchbox-reveal.reveal.white sub {
+  vertical-align: sub; }
+
+#pitchbox-reveal.reveal.white small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
+#pitchbox-reveal.reveal.white small * {
+  vertical-align: top; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+#pitchbox-reveal.reveal.white a {
+  color: #2a76dd;
+  text-decoration: none;
+  -webkit-transition: color 0.15s ease;
+  -moz-transition: color 0.15s ease;
+  transition: color 0.15s ease; }
+
+#pitchbox-reveal.reveal.white a:hover {
+  color: #6ca2e8;
+  text-shadow: none;
+  border: none; }
+
+#pitchbox-reveal.reveal.white .roll span:after {
+  color: #fff;
+  background: #1a54a1; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+#pitchbox-reveal.reveal.white section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #222;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+#pitchbox-reveal.reveal.white a img {
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  transition: all 0.15s linear; }
+
+#pitchbox-reveal.reveal.white a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #2a76dd;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+#pitchbox-reveal.reveal.white .controls div.navigate-left, #pitchbox-reveal.reveal.white .controls div.navigate-left.enabled {
+  border-right-color: #2a76dd; }
+
+#pitchbox-reveal.reveal.white .controls div.navigate-right, #pitchbox-reveal.reveal.white .controls div.navigate-right.enabled {
+  border-left-color: #2a76dd; }
+
+#pitchbox-reveal.reveal.white .controls div.navigate-up, #pitchbox-reveal.reveal.white .controls div.navigate-up.enabled {
+  border-bottom-color: #2a76dd; }
+
+#pitchbox-reveal.reveal.white .controls div.navigate-down, #pitchbox-reveal.reveal.white .controls div.navigate-down.enabled {
+  border-top-color: #2a76dd; }
+
+#pitchbox-reveal.reveal.white .controls div.navigate-left.enabled:hover {
+  border-right-color: #6ca2e8; }
+
+#pitchbox-reveal.reveal.white .controls div.navigate-right.enabled:hover {
+  border-left-color: #6ca2e8; }
+
+#pitchbox-reveal.reveal.white .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #6ca2e8; }
+
+#pitchbox-reveal.reveal.white .controls div.navigate-down.enabled:hover {
+  border-top-color: #6ca2e8; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+#pitchbox-reveal.reveal.white .progress {
+  background: rgba(0, 0, 0, 0.2); }
+
+#pitchbox-reveal.reveal.white .progress span {
+  background: #2a76dd;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * SLIDE NUMBER
+ *********************************************/
+#pitchbox-reveal.reveal.white .slide-number {
+  color: #2a76dd; }

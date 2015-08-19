@@ -1,0 +1,3 @@
+Reveal.initialize(
+	PitchboxInit.settings
+);
