@@ -1,7 +1,7 @@
 === PitchBox Slideshows ===
 Contributors: PitchboxTeam, TomHKWebs
 Donate link: https://www.pitchbox.io
-Tags: pitchbox, slideshows, slideshow, presentation, presentations, framework, slide, slides, slider, customizable, text, image, images, shortcode, shortcodes, seo, responsive, mobile, html5, javascript
+Tags: pitchbox, slideshows, slideshow, presentation, presentations, reveal, reveal.js, framework, slide, slides, slider, customizable, text, image, images, shortcode, shortcodes, seo, responsive, mobile, html5, javascript
 Requires at least: 3.6
 Tested up to: 4.2.4
 Stable tag: 1.0.0
@@ -12,7 +12,7 @@ Create and edit awesome presentations of your company, your products, services, 
 
 == Description ==
 
-Based on the powerful [Reveal.js](https://github.com/hakimel/reveal.js) HTML5 and Javascript library by Hakim El Hattab, the Pitchbox SlideShows plugin lets you create and edit awesome presentations of your company, your products, services, or educational content.
+Based on the powerful Reveal.js HTML5 and Javascript library by Hakim El Hattab, the Pitchbox SlideShows plugin lets you create and edit awesome presentations of your company, your products, services, or educational content.
 
 = User-friendly Admin Interface =
 
